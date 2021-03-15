@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: 'Lato', sans-serif;        
+      }
+      
+      #video {
+        width: 400px;
+        height: 300px;
+        border: 3px solid black;
+        background-color: rgb(65, 222, 247);
+        margin-left: auto;
+        margin-right: auto;
+      }
+      header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        min-height: 75px;
+        padding:20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0%;
+        background-color: rgb(248, 240, 240);
+        /* margin-top: 10px; */
+        
+        align-items: center;
+      }
+      a {
+        cursor: grab;
+      }
+      #papaya {
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #eee;
+        text-align: center;
+      }
+      nav>ul {
+        width: 35vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 20px;
+        /* background-color: rgb(240, 161, 161); */
+        
+      }
+      li {
+        list-style: none;       
+      }
+      h2 {
+        font-size: 35px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        padding-left: 10px;
+      }
+      .container {
+        background-color: rgb(216, 241, 245);
+      }
+      #hawaii-islands {
+        /* background-color: rgb(194, 238, 245); */
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #how-it-works {
+        background-color: rgb(179, 241, 250);
+        width: 410px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+      }
+      #pricing {
+        /* background-color: rgb(149, 236, 250); */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
+      .level {
+        background-color: rgb(74, 181, 197);
+      }
+      .product {
+        width: calc(100% / 5);
+        border: 1px solid #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        background-color: rgb(145, 231, 245);
+        margin: 10px;
+        border-radius: 3px;
+      }
+      .level {
+        background-color: rgb(224, 239, 241);
+        color: black;
+        padding: 15px 0;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+      }
+      .product > ul > li {
+        padding-bottom: 10px;
+        font-size: 20px;
+        /* text-align: center; */
+        margin-left: -10px;
+        /* background-color: cornsilk; */
+        align-items: center;
+      }
+      #email{
+        max-width: 300px;
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+      }
+      #submit {
+        height: 35px;
+        font-size: 15px;
+      }
+      .btn {
+        margin-bottom: 10px;
+        font-size: 25px;
+      }
+      p {
+        font-size: 20px;
+        margin: 10px;
+      }
+      @media (max-width: 650px) {
+        .logo {
+          width: 100%;            
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="https://raw.githubusercontent.com/AnnnAPr/Hawaii/main/Parallax/Images/Plumeria_thumb.jpg" alt="Plumeria flower">
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a class="nav-link" href="#hawaii-islands">Hawaii Island</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#how-it-works">How it works</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="papaya">
+      <h2>Hawaii: beaches, surfing</h2>
+      <form id="form" action=" https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+        <input id="submit" type="submit" value="get started" class="btn">
+      </form>
+    </div>
+
+    <div class="container">
+      <section id="hawaii-islands">
+        <ul>
+          <li><h2>Oahu</h2>
+            <p>The island lies within Honolulu County and the state capital, Honolulu, is on Oahu's southeast coast.</p>
+          </li>
+          <li><h2>Maui</h2>
+            <p>Maui's diverse landscapes are the result of a unique combination of geology, topography, and climate.</p>
+          </li>
+          <li><h2>Island of Hawaii</h2>
+            <p>The island of Hawaiʻi is built from five separate shield volcanoes that erupted somewhat sequentially, one overlapping the other.</p>
+          </li>
+        </ul>
+      </section>
+      <section id="how-it-works">
+        <iframe id="video" type="text/html" width="640" height="360"
+          src="https://www.youtube.com/embed/LVF-_W-Q8zs?autoplay=1&origin=http://example.com"
+          frameborder="0" allowfullscreen></iframe>        
+      </section>      
+      <section id="pricing">
+        <div class="product" id="surfing">
+          <div class="level">Surfing</div>
+          <h2>$300</h2>
+          <ul>
+            <li>Surfing board</li>
+            <li>Safety jacket</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="snorkeling">
+          <div class="level">Snorkeling</div>
+          <h2>$100</h2>
+          <ul>
+            <li>Mask set</li>
+            <li>Safety jacket</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="kayaking">
+          <div class="level">Kayaking</div>
+          <h2>$200</h2>
+          <ul>
+            <li>Kayak</li>
+            <li>Safety jacket</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+    </div>
+
+  </body>
+</html>
