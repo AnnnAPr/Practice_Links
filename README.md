@@ -8,3 +8,9 @@ https://htmlpreview.github.io/?https://github.com/AnnnAPr/Hawaii/blob/main/Paral
 https://htmlpreview.github.io/?https://github.com/AnnnAPr/Hawaii/blob/main/TabGallery/HawaiiTabGallery.html
 ### Online calculator:
 https://htmlpreview.github.io/?https://github.com/AnnnAPr/Calculator/blob/main/calculatorTable.html
+### Build Info Page
+https://htmlpreview.github.io/?https://github.com/AnnnAPr/Practice_Links/blob/main/BuildInfoPage.html
+### Product Form
+https://htmlpreview.github.io/?https://github.com/AnnnAPr/Practice_Links/blob/main/ProductForm.html
+### Submit Form
+https://htmlpreview.github.io/?https://github.com/AnnnAPr/Practice_Links/blob/main/SubmitForm.html
