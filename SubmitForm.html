@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .text-center {
+        text-align: center;
+      }
+      h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        line-height: 1.2;
+      }
+      h1, p {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+      }
+      h1 {
+        font-size: 42px;
+      }
+      p {
+        text-align: left;
+      }
+      #description {
+        padding-left: 40px;
+        font-size: 20px;
+        color:rgb(226, 239, 245);
+      }
+      header {
+        text-align: justify;
+        padding-left: 150px;
+      }
+      form {
+        background: rgb(55, 156, 238);
+        display: block;
+        box-sizing: border-box;
+        margin-top: 0em;
+        padding: 2.5rem;
+        border-radius: 0.5rem;
+        width: 60%;
+        text-align: center;
+      }
+      label {
+        display: flex;
+        align-items: center;
+        font-size: 1.125rem;
+        margin-top: 0.30rem;
+        margin-bottom: 0.10rem;
+      }
+      body {
+        background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://raw.githubusercontent.com/AnnnAPr/Hawaii/main/Parallax/Images/PalmsAndSky.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-left: 500px;
+    
+      }
+      .form-control {
+        display: block;
+        width: 100%;
+        height: 2.375rem;
+        padding: 0.375rem 0.75rem;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
+      textarea {
+        width: 100%;
+        height: 100px;
+  
+      }
+      button {
+      width: 100%;
+      background: rgba(14, 14, 238, 0.8);
+      margin-top: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      letter-spacing: 2px;
+      font-weight: bold;
+      font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">Hawaii Survey Form</h1>
+        <p id="description">Build a Survey Form task</p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label">Name</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label id="email-label">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label id="number-label">Number</label>
+          <input type="number" name="age" id="number" class="form-control" min="10" max="99" placeholder="Age">
+        </div>
+        <div class="form-group">
+          <p>Which option best suited for you?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select option</option>
+            <option value="inclusive-no-car">All included without car</option>
+            <option value="inclusive-with-car">All included with car</option>
+            <option value="apartment">Just apartment</option>
+            <option value="house">Just house</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Would you recommend it to friends?</p>
+          <label>
+            <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>Definitely
+          </label>
+          <label>
+            <input name="user-recommend" value="maybe" type="radio" class="input-radio" checked>Maybe
+          </label>
+          <label>
+            <input name="user-recommend" value="not-sure" type="radio" class="input-radio" checked>Not sure
+          </label>
+        </div>
+        <div class="form-group">
+          <p>What would you like to see improved?</p>
+          <label>
+            <input name="prefer" value="meet-airport" type="checkbox" class="input-checkbox">Meeting at airport
+          </label>
+          <label>
+            <input name="prefer" value="greeting-food" type="checkbox" class="input-checkbox">Greeting with food
+          </label>
+          <label>
+            <input name="prefer" value="hawaiian-flowers" type="checkbox" class="input-checkbox">Meeting with Hawaiian flowers
+          </label>
+        </div>
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea id="comments" class="input-textarea" name="comments" placeholder="Enter your comments here..."></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>
