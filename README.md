@@ -14,5 +14,7 @@ https://htmlpreview.github.io/?https://github.com/AnnnAPr/Practice_Links/blob/ma
 https://htmlpreview.github.io/?https://github.com/AnnnAPr/Practice_Links/blob/main/ProductForm.html
 ### Submit Form
 https://htmlpreview.github.io/?https://github.com/AnnnAPr/Practice_Links/blob/main/SubmitForm.html
+### Technical Documentation
+https://htmlpreview.github.io/?https://github.com/AnnnAPr/Practice_Links/blob/main/TechnicalDocumentation.html
 ## One General Task
 https://htmlpreview.github.io/?https://github.com/AnnnAPr/Practice_Links/blob/main/Practice_Tasks.html
