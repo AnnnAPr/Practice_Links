@@ -7,7 +7,7 @@ https://htmlpreview.github.io/?https://github.com/AnnnAPr/Hawaii/blob/main/Paral
 ### Pictures (Tab Gallery):
 https://htmlpreview.github.io/?https://github.com/AnnnAPr/Hawaii/blob/main/TabGallery/HawaiiTabGallery.html
 ### Online calculator:
-https://htmlpreview.github.io/?https://github.com/AnnnAPr/Calculator/blob/main/calculatorTable.html
+https://annnapr.github.io/JavaScript-calculator/
 ### Build Info Page
 https://htmlpreview.github.io/?https://github.com/AnnnAPr/Practice_Links/blob/main/BuildInfoPage.html
 ### Product Form
