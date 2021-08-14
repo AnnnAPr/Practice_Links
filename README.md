@@ -20,5 +20,7 @@ https://htmlpreview.github.io/?https://github.com/AnnnAPr/Practice_Links/blob/ma
 https://annnapr.github.io/random-quote-machine/
 ### Markdown Previewer
 https://annnapr.github.io/Markdown-Previewer/
+### Build a 25 + 5 Clock
+https://annnapr.github.io/25_5Clock/build/
 ## One General Task
 https://htmlpreview.github.io/?https://github.com/AnnnAPr/Practice_Links/blob/main/Practice_Tasks.html
